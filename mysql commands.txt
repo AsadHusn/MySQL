@@ -1,0 +1,31 @@
+-- comment
+show databases;
+show tables;
+show schemas;
+show create table <tname>
+
+use <database>;
+describe <tname>;
+
+CREATE DATABASE dbname;
+DROP DATABASE dbname;
+
+CREATE TABLE <tname>(column type constraint);
+DROP TABLE <tname>;
+
+ALTER TABLE <tname> ADD <column-name>;
+ALTER TABLE <tname> DROP COLUMN <column-name>;
+
+UPDATE <tname> SET <column-name> = "value"
+
+SELECT * FROM <tname>
+WHERE <condition> IN ('values')
+ORDER BY <column-name> ASC|DESC
+LIMIT
+
+LIKE
+Wildcards
+% = any number of characters
+_ = one character
+
+UNION
